@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Secrets — never commit credentials
+.streamlit/secrets.toml
+*.env
+secrets.json
+credentials.json
+
+# App data files — persisted in database after Phase 2
+options_screener/nlv_snapshots.json
+options_screener/watchlists.json
+
+# Debug / dev scripts (not part of the app)
+options_screener/debug_portfolio.py
+options_screener/find_history_endpoint.py
+options_screener/test_data.py
+
+# Runtime logs and local certs
+streamlit.log
+win_certs.pem
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
